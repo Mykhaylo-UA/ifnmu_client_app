@@ -57,16 +57,17 @@ body{
   z-index: 100;
   background-color: rgba(0, 0, 0, 0);
   transition: 300ms;
+  visibility: hidden;
 }
 
 .mask-exit-done{
   background-color: rgba(0, 0, 0, 0.6);
-  display:block;
+  visibility: visible;
 }
 .mask-enter-done{
   opacity: 0;
   background-color: rgba(0, 0, 0, 0);
-  display: none;
+  visibility: hidden;
 }
 
 
