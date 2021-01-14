@@ -1,0 +1,82 @@
+body{
+  background-color: #f0f2f5;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    background: url("../../logo.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    right: 10px;
+  }
+  
+  .site-layout-sub-header-background {
+    background: #fff;
+  }
+  
+  .site-layout-background {
+    background: #fff;
+  }
+  .ant-layout-sider-zero-width-trigger{
+    top: 0;
+  }
+  .ant-layout-sider{
+    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.655, 1);
+  }
+  .ant-menu, .ant-layout-sider-trigger{
+    transition:  0.6s cubic-bezier(0.215, 0.61, 0.655, 1)  !important;
+  }
+  .ant-menu{
+    height: 100vh;
+  }
+  .ant-menu-item, .ant-menu-submenu-title{
+    transition: border-color 0.6s, background 0.6s, padding 0.3s cubic-bezier(0.215, 0.61, 0.655, 1);
+  }
+
+ .ant-menu-item .ant-menu-item-icon, .ant-menu-submenu-title .ant-menu-item-icon, .ant-menu-item .anticon, .ant-menu-submenu-title .anticon {
+    -webkit-transition: font-size 0.6s cubic-bezier(0.215, 0.61, 0.655, 1), margin 0.6s cubic-bezier(0.215, 0.61, 0.655, 1), color 0.6s;
+    transition: font-size 0.6s cubic-bezier(0.215, 0.61, 0.655, 1), margin 0.6s cubic-bezier(0.215, 0.61, 0.655, 1), color 0.6s;
+
+ }
+ .ant-menu-item .ant-menu-item-icon + span, .ant-menu-submenu-title .ant-menu-item-icon + span, .ant-menu-item .anticon + span, .ant-menu-submenu-title .anticon + span {
+  opacity: 1;
+  -webkit-transition: opacity 0.6s cubic-bezier(0.645, 0.045, 0.655, 1), width 0.6s cubic-bezier(0.645, 0.045, 0.655, 1), color 0.6s;
+  transition: opacity 0.6s cubic-bezier(0.645, 0.045, 0.655, 1), width 0.6s cubic-bezier(0.645, 0.045, 0.655, 1), color 0.6s;
+}
+
+.mask{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 300ms;
+}
+
+.mask-exit-done{
+  background-color: rgba(0, 0, 0, 0.6);
+  display:block;
+}
+.mask-enter-done{
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  display: none;
+}
+
+
+.ant-layout-sider {
+  z-index: 9999;
+}
+
+@media(max-width: 768px){
+  .ant-layout-sider {
+    position: fixed;
+    height: 100vh;
+  }
+}

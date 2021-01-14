@@ -1,0 +1,9 @@
+.list{
+    width: 80%;
+    margin: auto;
+}
+
+.listItem:hover{
+    background-color: beige;
+    cursor: pointer;
+}

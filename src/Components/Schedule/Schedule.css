@@ -1,0 +1,15 @@
+.input-width{
+    width:200px;
+}
+
+.error-field{
+    border-color: red;
+}
+
+.customTable .ant-table-cell{
+    padding: 2px !important;
+    text-align: center !important;
+}
+.customTable .ant-table-cell > .ant-input{
+    padding: 2px !important;
+}

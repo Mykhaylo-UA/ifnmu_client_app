@@ -1,0 +1,14 @@
+{
+    "namelessons":["POZOZ", "Huesos"], ++++++++++++++
+    "days": [
+        { "dayofweek": 1,
+            "lessons":[
+                    [{"string":"10 5 4", "number": 1},{"string":"10 5 4", "number": 2},{"string":"10 5 4", "number": 4}],
+                    [{"string":"10 5 4", "number": 1},{"string":"10 5 4", "number": 2},{"string":"10 5 4", "number": 4}]
+                ]
+        },
+        { "dayofweek": 2,
+            "lessons":[[{"string":"10 5 4", "number": 3},{"string":"10 5 4", "number": 4},{"string":"10 5 4", "number": 5}]]
+        }
+    ]
+}
